@@ -1,0 +1,181 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+/* page1 */
+.page1{
+    background-color: #1f2937;   
+}
+/* pg1 header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+/* pg1 main content */
+.page1-maincontent {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.left{
+    
+    padding: 16px;
+}
+
+.h-title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.h-para{
+    color: #e5e7eb;
+    font-size: 18px; 
+    max-width: 430px;
+}
+
+.signup-1{
+    color: #e5e7eb;
+    background-color: #3883f6;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+/* page 2 */
+.page2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.pg2-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+    
+}
+.items img{
+    height: auto;
+    width: 100px;
+}
+
+.items p{
+    font-size: 10px;
+    color: #6c6c6c;
+    
+}
+
+/* Page 3 */
+.page3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.bigcmnt{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #1f2937;
+    padding: 50px 50px 0px 50px;
+
+}
+
+.smallname{
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+    padding: 0px 18px 18px 18px ;
+    
+   
+}
+
+
+/* page 4 */
+
+.floatContainer{
+    /* border: none;
+    border-radius: 8px;
+    display: flex;
+    height: auto;
+    width: 500px;
+    padding: 16px;
+    margin: auto; */
+    background-color: #3882f6;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 48px;
+    margin: auto;
+    
+}
+
+.floatLeft .h1{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+
+    
+}
+.floatLeft .p1{
+    color: #f9faf8;
+    font-size: 12px;
+}
+
+
+.actSignup{
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+/* Footer */
+.footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    height: 80px;
+}
